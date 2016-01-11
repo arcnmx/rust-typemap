@@ -11,8 +11,7 @@ use std::marker::PhantomData;
 
 use Entry::{Occupied, Vacant};
 
-pub use internals::{CloneAny, DebugAny};
-use internals::Implements;
+pub use internals::{CloneAny, DebugAny, Implements};
 
 /// A map keyed by types.
 ///
